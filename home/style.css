@@ -1,0 +1,123 @@
+ @font-face {
+        font-family: 'retro_gamingregular';
+        src: url('retro_gaming-webfont.woff2') format('woff2'),
+             url('retro_gaming-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal; 
+    }
+
+* {
+    font-family: 'retro_gamingregular';
+    color: black;
+}
+
+body {
+    background-image: url("img/back.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.enter {
+    text-align: center;
+}
+
+.enter h1 {
+    font-size: 50px;
+    color: #ff90ff;
+    font-weight: bold;
+    text-shadow:#eb2ebe 10px 10px 20px;
+}
+
+#sousTitre {
+    font-weight: 100;
+    font-size: 20px;
+    color : #8dfbf8;
+    text-shadow:#07d1e9 10px 10px 20px;
+}
+
+
+
+#retro1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    overflow-x: hidden;
+    width: 10%;
+}
+
+
+#retro2 {
+    position: absolute;
+    bottom: 50%;
+    right: 30%;
+    overflow-x: hidden;
+    width: 5%;
+}
+
+#retro3 {
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    overflow-x: hidden;
+    width: 10%;
+}
+
+#retro4 {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    overflow-x: hidden;
+    width: 13%;
+}
+
+#play {
+    background-color: red;
+    padding: 15px 10px;
+    border-radius: 50%;
+    display: inline;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.owner a {
+    display: block;
+}
+
+#soundOff {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 5%;
+}
+
+.owner a {
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+
+.ecran1 {
+    display: block;
+}
+
+.ecran2 p {
+    display: none;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.ecran2 a {
+    color: greenyellow;
+    font-size: 35px;
+    display: none;
+    margin: 70px auto;
+    text-align: center;
+}
+
+#welcome {
+    font-size: 30px;
+}
+
